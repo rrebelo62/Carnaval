@@ -1,0 +1,32 @@
+{
+  "name": "Carnaval",
+  "author": "Rui Rebelo",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "pebble": {
+    "displayName": "Carnaval",
+    "uuid": "DAF6B572-DE63-45AB-B735-8F7DC2AC60DE",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": [
+        {
+          "file": "images/icon.png",
+          "menuIcon": true,
+          "name": "IMAGE_MENU_ICON",
+          "type": "bitmap"
+        }
+      ]
+    }
+  }
+}
